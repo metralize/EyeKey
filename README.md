@@ -6,5 +6,4 @@ $info = $face->execute('/face/Check/checking',array(</br>
     'mode'=>'',</br>
     'tip'=>''</br>
     ));</br>
-echo '<pre>';</br>
-print_r($info);</br>
+print_r($info);
