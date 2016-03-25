@@ -15,7 +15,7 @@
 ### http://www.eyekey.com                         ###
 ######################################################
 
-class Facepp
+class eyekey
 {
     public $server          = 'http://api.eyekey.com';
     public $api_key         = '';        // 设置APP ID
@@ -85,7 +85,7 @@ class Facepp
 
 // demo
 
-$face = new Facepp();
+$face = new eyekey();
 $info = $face->execute('/face/Check/checking',array(
     'url'=>'http://img5q.duitang.com/uploads/item/201307/07/20130707215045_SJyRn.jpeg',
     'mode'=>'',
